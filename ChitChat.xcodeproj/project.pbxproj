@@ -21,6 +21,9 @@
 		366814B429E80134001FCD89 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366814B329E80134001FCD89 /* Presenter.swift */; };
 		366814B629E801FD001FCD89 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366814B529E801FD001FCD89 /* Router.swift */; };
 		366814B829E802F3001FCD89 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366814B729E802F3001FCD89 /* Builder.swift */; };
+		36AA40B129E8724800C53A6B /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AA40B029E8724800C53A6B /* Landing.storyboard */; };
+		36AA40B329E8727100C53A6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AA40B229E8727100C53A6B /* LandingViewController.swift */; };
+		36AA40B529E872D600C53A6B /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AA40B429E872D600C53A6B /* Builder.swift */; };
 		36E7EE9029E80B6D0007361A /* Landing.docc in Sources */ = {isa = PBXBuildFile; fileRef = 36E7EE8F29E80B6D0007361A /* Landing.docc */; };
 		36E7EE9129E80B6D0007361A /* Landing.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E7EE8E29E80B6D0007361A /* Landing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36E7EE9429E80B6D0007361A /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E7EE8C29E80B6D0007361A /* Landing.framework */; };
@@ -75,6 +78,9 @@
 		366814B329E80134001FCD89 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		366814B529E801FD001FCD89 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		366814B729E802F3001FCD89 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		36AA40B029E8724800C53A6B /* Landing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		36AA40B229E8727100C53A6B /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		36AA40B429E872D600C53A6B /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		36E7EE8C29E80B6D0007361A /* Landing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Landing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E7EE8E29E80B6D0007361A /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
 		36E7EE8F29E80B6D0007361A /* Landing.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Landing.docc; sourceTree = "<group>"; };
@@ -167,6 +173,9 @@
 			children = (
 				36E7EE8E29E80B6D0007361A /* Landing.h */,
 				36E7EE8F29E80B6D0007361A /* Landing.docc */,
+				36AA40B029E8724800C53A6B /* Landing.storyboard */,
+				36AA40B229E8727100C53A6B /* LandingViewController.swift */,
+				36AA40B429E872D600C53A6B /* Builder.swift */,
 			);
 			path = Landing;
 			sourceTree = "<group>";
@@ -312,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AA40B129E8724800C53A6B /* Landing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +354,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AA40B329E8727100C53A6B /* LandingViewController.swift in Sources */,
 				36E7EE9029E80B6D0007361A /* Landing.docc in Sources */,
+				36AA40B529E872D600C53A6B /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
