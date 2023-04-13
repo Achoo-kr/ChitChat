@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		365ED7B029E8674A005AED42 /* Utility.docc in Sources */ = {isa = PBXBuildFile; fileRef = 365ED7AF29E8674A005AED42 /* Utility.docc */; };
+		365ED7B129E8674A005AED42 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 365ED7AE29E8674A005AED42 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365ED7B429E8674A005AED42 /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365ED7AC29E8674A005AED42 /* Utility.framework */; };
+		365ED7B529E8674A005AED42 /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 365ED7AC29E8674A005AED42 /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		365ED7BA29E867AB005AED42 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365ED7B929E867AB005AED42 /* UIViewController+Extensions.swift */; };
 		3668148A29E7FEAB001FCD89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668148929E7FEAB001FCD89 /* AppDelegate.swift */; };
 		3668148C29E7FEAB001FCD89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668148B29E7FEAB001FCD89 /* SceneDelegate.swift */; };
 		3668148E29E7FEAB001FCD89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668148D29E7FEAB001FCD89 /* ViewController.swift */; };
@@ -21,13 +26,26 @@
 		366814B429E80134001FCD89 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366814B329E80134001FCD89 /* Presenter.swift */; };
 		366814B629E801FD001FCD89 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366814B529E801FD001FCD89 /* Router.swift */; };
 		366814B829E802F3001FCD89 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366814B729E802F3001FCD89 /* Builder.swift */; };
+		36E5485129E86909005FD4DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36E5485029E86909005FD4DC /* Info.plist */; };
+		36E5485329E86917005FD4DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36E5485229E86917005FD4DC /* Info.plist */; };
+		36E5485529E86922005FD4DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36E5485429E86922005FD4DC /* Info.plist */; };
 		36E7EE9029E80B6D0007361A /* Landing.docc in Sources */ = {isa = PBXBuildFile; fileRef = 36E7EE8F29E80B6D0007361A /* Landing.docc */; };
 		36E7EE9129E80B6D0007361A /* Landing.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E7EE8E29E80B6D0007361A /* Landing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36E7EE9429E80B6D0007361A /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E7EE8C29E80B6D0007361A /* Landing.framework */; };
 		36E7EE9529E80B6D0007361A /* Landing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36E7EE8C29E80B6D0007361A /* Landing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36E7EE9A29E80DEA0007361A /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E7EE9929E80DEA0007361A /* Landing.storyboard */; };
+		36E7EE9C29E80E6C0007361A /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7EE9B29E80E6C0007361A /* LandingViewController.swift */; };
+		36E7EEA029E80EEA0007361A /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7EE9F29E80EEA0007361A /* Builder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		365ED7B229E8674A005AED42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3668147E29E7FEAB001FCD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 365ED7AB29E8674A005AED42;
+			remoteInfo = Utility;
+		};
 		366814A929E7FFC4001FCD89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3668147E29E7FEAB001FCD89 /* Project object */;
@@ -51,6 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				365ED7B529E8674A005AED42 /* Utility.framework in Embed Frameworks */,
 				36E7EE9529E80B6D0007361A /* Landing.framework in Embed Frameworks */,
 				366814AC29E7FFC4001FCD89 /* Window.framework in Embed Frameworks */,
 			);
@@ -60,6 +79,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		365ED7AC29E8674A005AED42 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		365ED7AE29E8674A005AED42 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		365ED7AF29E8674A005AED42 /* Utility.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Utility.docc; sourceTree = "<group>"; };
+		365ED7B929E867AB005AED42 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		3668148629E7FEAB001FCD89 /* ChitChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChitChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3668148929E7FEAB001FCD89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3668148B29E7FEAB001FCD89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,16 +98,30 @@
 		366814B329E80134001FCD89 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		366814B529E801FD001FCD89 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		366814B729E802F3001FCD89 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		36E5485029E86909005FD4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E5485229E86917005FD4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E5485429E86922005FD4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E7EE8C29E80B6D0007361A /* Landing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Landing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E7EE8E29E80B6D0007361A /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
 		36E7EE8F29E80B6D0007361A /* Landing.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Landing.docc; sourceTree = "<group>"; };
+		36E7EE9929E80DEA0007361A /* Landing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		36E7EE9B29E80E6C0007361A /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		36E7EE9F29E80EEA0007361A /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		365ED7A929E8674A005AED42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3668148329E7FEAB001FCD89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365ED7B429E8674A005AED42 /* Utility.framework in Frameworks */,
 				36E7EE9429E80B6D0007361A /* Landing.framework in Frameworks */,
 				366814AB29E7FFC4001FCD89 /* Window.framework in Frameworks */,
 			);
@@ -107,6 +144,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		365ED7AD29E8674A005AED42 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				365ED7AE29E8674A005AED42 /* Utility.h */,
+				365ED7AF29E8674A005AED42 /* Utility.docc */,
+				365ED7B929E867AB005AED42 /* UIViewController+Extensions.swift */,
+				36E5485229E86917005FD4DC /* Info.plist */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		3668147D29E7FEAB001FCD89 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +169,7 @@
 				3668148629E7FEAB001FCD89 /* ChitChat.app */,
 				366814A329E7FFC4001FCD89 /* Window.framework */,
 				36E7EE8C29E80B6D0007361A /* Landing.framework */,
+				365ED7AC29E8674A005AED42 /* Utility.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,8 +192,9 @@
 		3668149D29E7FF4E001FCD89 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				36E7EE8D29E80B6D0007361A /* Landing */,
 				366814A429E7FFC4001FCD89 /* Window */,
+				36E7EEB329E8120D0007361A /* Shared */,
+				36E7EE8D29E80B6D0007361A /* Landing */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -158,6 +208,7 @@
 				366814B329E80134001FCD89 /* Presenter.swift */,
 				366814B529E801FD001FCD89 /* Router.swift */,
 				366814B729E802F3001FCD89 /* Builder.swift */,
+				36E5485029E86909005FD4DC /* Info.plist */,
 			);
 			path = Window;
 			sourceTree = "<group>";
@@ -167,13 +218,33 @@
 			children = (
 				36E7EE8E29E80B6D0007361A /* Landing.h */,
 				36E7EE8F29E80B6D0007361A /* Landing.docc */,
+				36E7EE9929E80DEA0007361A /* Landing.storyboard */,
+				36E7EE9B29E80E6C0007361A /* LandingViewController.swift */,
+				36E7EE9F29E80EEA0007361A /* Builder.swift */,
+				36E5485429E86922005FD4DC /* Info.plist */,
 			);
 			path = Landing;
+			sourceTree = "<group>";
+		};
+		36E7EEB329E8120D0007361A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				365ED7AD29E8674A005AED42 /* Utility */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		365ED7A729E8674A005AED42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365ED7B129E8674A005AED42 /* Utility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3668149E29E7FFC4001FCD89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +264,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		365ED7AB29E8674A005AED42 /* Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365ED7B629E8674A005AED42 /* Build configuration list for PBXNativeTarget "Utility" */;
+			buildPhases = (
+				365ED7A729E8674A005AED42 /* Headers */,
+				365ED7A829E8674A005AED42 /* Sources */,
+				365ED7A929E8674A005AED42 /* Frameworks */,
+				365ED7AA29E8674A005AED42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Utility;
+			productName = Utility;
+			productReference = 365ED7AC29E8674A005AED42 /* Utility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3668148529E7FEAB001FCD89 /* ChitChat */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3668149A29E7FEAC001FCD89 /* Build configuration list for PBXNativeTarget "ChitChat" */;
@@ -207,6 +296,7 @@
 			dependencies = (
 				366814AA29E7FFC4001FCD89 /* PBXTargetDependency */,
 				36E7EE9329E80B6D0007361A /* PBXTargetDependency */,
+				365ED7B329E8674A005AED42 /* PBXTargetDependency */,
 			);
 			name = ChitChat;
 			productName = ChitChat;
@@ -259,6 +349,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					365ED7AB29E8674A005AED42 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					3668148529E7FEAB001FCD89 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -286,11 +379,20 @@
 				3668148529E7FEAB001FCD89 /* ChitChat */,
 				366814A229E7FFC4001FCD89 /* Window */,
 				36E7EE8B29E80B6D0007361A /* Landing */,
+				365ED7AB29E8674A005AED42 /* Utility */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		365ED7AA29E8674A005AED42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E5485329E86917005FD4DC /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3668148429E7FEAB001FCD89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E5485129E86909005FD4DC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,12 +415,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E5485529E86922005FD4DC /* Info.plist in Resources */,
+				36E7EE9A29E80DEA0007361A /* Landing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		365ED7A829E8674A005AED42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365ED7BA29E867AB005AED42 /* UIViewController+Extensions.swift in Sources */,
+				365ED7B029E8674A005AED42 /* Utility.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3668148229E7FEAB001FCD89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,13 +458,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E7EE9C29E80E6C0007361A /* LandingViewController.swift in Sources */,
 				36E7EE9029E80B6D0007361A /* Landing.docc in Sources */,
+				36E7EEA029E80EEA0007361A /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		365ED7B329E8674A005AED42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 365ED7AB29E8674A005AED42 /* Utility */;
+			targetProxy = 365ED7B229E8674A005AED42 /* PBXContainerItemProxy */;
+		};
 		366814AA29E7FFC4001FCD89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 366814A229E7FFC4001FCD89 /* Window */;
@@ -383,6 +504,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		365ED7B729E8674A005AED42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AU882HP6MX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChitChat/Modules/Shared/Utility/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = IcyChoo.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		365ED7B829E8674A005AED42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AU882HP6MX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChitChat/Modules/Shared/Utility/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = IcyChoo.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3668149829E7FEAC001FCD89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -569,7 +760,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChitChat/Modules/Window/info.plist;
+				INFOPLIST_FILE = ChitChat/Modules/Window/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -604,7 +795,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChitChat/Modules/Window/info.plist;
+				INFOPLIST_FILE = ChitChat/Modules/Window/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -639,8 +830,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChitChat/Modules/Landing/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -672,8 +865,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChitChat/Modules/Landing/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -696,6 +891,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		365ED7B629E8674A005AED42 /* Build configuration list for PBXNativeTarget "Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365ED7B729E8674A005AED42 /* Debug */,
+				365ED7B829E8674A005AED42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3668148129E7FEAB001FCD89 /* Build configuration list for PBXProject "ChitChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
