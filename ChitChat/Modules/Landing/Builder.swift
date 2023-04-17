@@ -14,5 +14,6 @@ public final class Builder {
         
         let storyboard = UIStoryboard.init(name: "Loading", bundle: Bundle.init(for: self))
         let view = LandingViewController.instantiate(from: storyboard)
+        return view
     }
 }
